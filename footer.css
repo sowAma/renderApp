@@ -1,0 +1,33 @@
+.footer-wrapper {
+    background-color: rgb(41, 65, 186);
+    margin-top: auto;
+    min-height: 40vh;
+    width: 100%;
+    padding: .5rem;
+}
+
+.footer-wrapper hr {
+    border-top: 1px solid rgb(41, 65, 186);
+    border-left: 1px solid rgb(41, 65, 186);
+    border-right: 1px solid rgb(41, 65, 186);
+    width: 50%;
+    margin: auto;
+}
+
+.footer-wrapper p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family:  'proxima nova';
+}
+
+.footer-wrapper div{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 2rem;
+   margin-top: 4px;
+}
+.footer-wrapper  i{
+    font-size: 2rem;
+   align-self: flex-start;
+}

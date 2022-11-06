@@ -1,0 +1,44 @@
+.featured{
+    text-rendering: optimizespeed;
+    font-family: 'FreeSans','Arimo',"Droid Sans",Helvetica,Arial,sans-serif;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+	flex-flow: row wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+	position: relative;
+	top: 60px;
+	margin: 7% auto;
+	width: 85%;
+	gap: 2rem;
+}
+.featured-container2{
+    display: flex;
+	flex-direction: column;
+	gap: .5rem;
+}
+
+
+.featured-banner{
+    width: 50%;
+}
+.featured-banner:hover{
+   opacity: .8;
+}
+.featured-article-title{
+	color: black;
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.featured-title-link{
+	text-decoration: none;
+	color: black;
+	font-size: 1.7em;
+	font-weight: 600;
+}
+
+.featured-title-link:hover{
+	color: rgb(41, 65, 186)
+}
